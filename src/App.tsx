@@ -1,13 +1,12 @@
 import React from 'react';
+import MapView from './Map';
 
-const App = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>hello</h1>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <header className="App-header">
+      <MapView />
+    </header>
+  </div>
+);
 
 export default App;
